@@ -15,3 +15,10 @@ The program creates a sorted index of words and enables efficient searching acro
 $ cd InvertedSearch
 $ chmod +x *.c
 $ gcc *.c -o inverted_search
+## Running the Program
+
+### Indexing Files
+1. Place the text files to be indexed inside the `InvertedSearch` directory.
+2. Run the following command to create the index:
+   ```bash
+   $ ./inverted_search -i file1.txt file2.txt file3.txt
