@@ -9,12 +9,13 @@ The program creates a sorted index of words and enables efficient searching acro
 - **Efficient Data Handling**: Uses a linked list to store and manage indexed words.
 
 ## Compiling the Program
-
-### Compile the program:
-```bash
-$ cd InvertedSearch
+1. <b>Compile the program : </b>
+  ```
+ $ cd InvertedSearch
 $ chmod +x *.c
 $ gcc *.c -o inverted_search
+  ```
+
 ## Running the Program
 
 ### Indexing Files
